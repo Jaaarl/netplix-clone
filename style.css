@@ -7,3 +7,31 @@
     background: rgba(0, 0, 0, 0.6); */
     background-color: black;
 }
+
+.accordion-button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 0;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.accordion-button:hover {
+    background-color: #555;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: white;
+}
+
+.accordion-body {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-top: none;
+    border-radius: 0;
+    border-color: none;
+    box-shadow: none;
+}
